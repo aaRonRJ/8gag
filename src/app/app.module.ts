@@ -21,6 +21,7 @@ import { PipesModule } from '../pipes/pipes.module';
 import { Camera } from '@ionic-native/camera';
 import { ImagePicker } from '@ionic-native/image-picker';
 import { LoadFileProvider } from '../providers/load-file/load-file';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyAYW5TYqpyd9KxGv3ob2jlWMP1d8TAZWJY",
@@ -57,6 +58,7 @@ export const firebaseConfig = {
     AngularFireDatabase,
     Camera,
     ImagePicker,
+    SocialSharing,
     LoadFileProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
